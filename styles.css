@@ -1,0 +1,46 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+}
+
+header, section, footer {
+    padding: 50px 0;
+}
+
+header {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #16a085;
+}
